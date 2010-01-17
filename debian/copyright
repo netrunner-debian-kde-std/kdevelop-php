@@ -1,0 +1,69 @@
+This work was packaged for Debian by:
+
+    Fathi Boudra <fabo@debian.org> on Sun, 17 Jan 2010 17:10:22 +0100
+
+It was downloaded from:
+
+    ftp://ftp.kde.org/pub/kde/
+
+Upstream Authors:
+
+    Niko Sams <niko.sams@gmail.com>
+    Milian Wolff <mail@milianw.de>
+
+Copyright:
+
+    Copyright (C) 2008-2010 Niko Sams <niko.sams@gmail.com>
+    Copyright (C) 2008-2010 Milian Wolff <mail@milianw.de>
+    Copyright (C) 2007-2008 David Nolden <david.nolden.kdevelop@art-master.de>
+    Copyright (C) 2006-2008 Hamish Rodda <rodda@kde.org>
+    Copyright (C) 2007 Andreas Pakulat <apaku@gmx.de>
+    Copyright (C) 2007 Piyush verma <piyush.verma@gmail.com>
+    Copyright (C) 2002-2006 Roberto Raggi <roberto@kdevelop.org>
+    Copyright (C) 2006 Matt Rogers <mattr@kde.org>
+    Copyright (C) 2004 Jaroslaw Staniek <js@iidea.pl>
+
+Copyright for FindKDevPlatform.cmake file:
+
+    Copyright (C) 2007 Andreas Pakulat <apaku@gmx.de>
+    Redistribution and use is allowed according to the terms of the BSD license.
+
+On Debian systems, the complete text of the BSD license can be found in
+`/usr/share/common-licenses/BSD'.
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2' and
+`/usr/share/common-licenses/GPL-3'.
+
+Some parts of the source code are copied from KDevelop cpp language support.
+They are licensed under the terms of GNU Lesser General Public License
+version 2 or any later version.
+
+On Debian systems, the complete text of the GNU Lesser General
+Public License can be found in `/usr/share/common-licenses/LGPL-2' and
+`/usr/share/common-licenses/LGPL-3'.
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Fathi Boudra <fabo@debian.org>
+
+you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.

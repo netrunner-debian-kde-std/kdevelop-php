@@ -1,0 +1,5 @@
+kdevelop-php: package-name-doesnt-match-sonames libkdev4phpcompletion libkdev4phpduchain libkdev4phpparser
+kdevelop-php: shlib-without-versioned-soname usr/lib/libkdev4phpparser.so libkdev4phpparser.so
+kdevelop-php: shlib-without-versioned-soname usr/lib/libkdev4phpduchain.so libkdev4phpduchain.so
+kdevelop-php: shlib-without-versioned-soname usr/lib/libkdev4phpcompletion.so libkdev4phpcompletion.so
+kdevelop-php: postinst-must-call-ldconfig usr/lib/libkdev4phpparser.so
