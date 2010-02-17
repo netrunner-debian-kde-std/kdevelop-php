@@ -1,8 +1,13 @@
-kdevelop-php (1.0.0~beta3-1) UNRELEASED; urgency=low
+kdevelop-php (1.0.0~beta3-1) experimental; urgency=low
 
   * New upstream release.
+  * Remove 01_kdevelop-plugin_php_branch_pull_r1076222.diff - stolen upstream.
+  * Update debian/control:
+    - bump build dependencies (debhelper, pkg-kde-tools, kdevplatform-dev).
+    - bump Standards-Version to 3.8.4 (no changes needed).
+  * Update debian/rules: enable parallel build (pass --parallel option to dh).
 
- -- Fathi Boudra <fabo@debian.org>  Thu, 11 Feb 2010 16:50:15 +0100
+ -- Fathi Boudra <fabo@debian.org>  Wed, 17 Feb 2010 22:20:31 +0100
 
 kdevelop-php (1.0.0~beta2-1) experimental; urgency=low
 
