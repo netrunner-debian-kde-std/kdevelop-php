@@ -1,3 +1,9 @@
+kdevelop-php (1.0.0~beta4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 14 Mar 2010 10:19:34 +0100
+
 kdevelop-php (1.0.0~beta3-1) experimental; urgency=low
 
   * New upstream release.
