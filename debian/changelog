@@ -1,3 +1,9 @@
+kdevelop-php (1.0.0~rc1-2) experimental; urgency=low
+
+  * Add patch to bump plugin version. (Closes: #576674)
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 13 Apr 2010 14:53:36 +0300
+
 kdevelop-php (1.0.0~rc1-1) experimental; urgency=low
 
   * New upstream release.
