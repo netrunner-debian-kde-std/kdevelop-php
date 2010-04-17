@@ -1,3 +1,10 @@
+kdevelop-php (1.0.0~rc2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Drop patch to bump plugin version - stolen upstream.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 17 Apr 2010 15:39:37 +0300
+
 kdevelop-php (1.0.0~rc1-2) experimental; urgency=low
 
   * Add patch to bump plugin version. (Closes: #576674)
