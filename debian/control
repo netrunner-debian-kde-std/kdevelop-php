@@ -36,9 +36,9 @@ Section: localization
 Architecture: all
 Recommends: kdevplatform-l10n-cavalencia, kdevelop-l10n-cavalencia
 Provides: kdevelop-php-l10n
-Description: Southern Catalan (Valencian) (ca@valencia) files for the KDevelop IDE
- This package contains the Southern Catalan (Valencian) translations
- for KDevelop.
+Description: Southern Catalan (Valencian) (ca@valencia) files for KDevelop PHP plugin
+ This package contains the Southern Catalan (Valencian) translations for
+ KDevelop PHP plugin.
  .
  This package is part of the PHP plugin for KDevelop.
 
