@@ -1,3 +1,10 @@
+kdevelop-php (1.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add localization packages.
+
+ -- Fathi Boudra <fabo@debian.org>  Fri, 23 Jul 2010 23:45:07 +0300
+
 kdevelop-php (1.0.0-1) unstable; urgency=low
 
   * New upstream release - upload to unstable.
