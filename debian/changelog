@@ -4,6 +4,7 @@ kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
   * Switch Vcs-* fields to the new repository at git.debian.org.
   * Bump Standards-Version to 3.9.1: no changes needed.
   * Require kdevplatform-dev 1.1 for building.
+  * Build depend on kdevelop-pg-qt.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 00:21:02 +0200
 
