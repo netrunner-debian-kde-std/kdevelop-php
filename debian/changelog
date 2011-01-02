@@ -1,6 +1,7 @@
 kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Switch Vcs-* fields to the new repository at git.debian.org.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 00:21:02 +0200
 
