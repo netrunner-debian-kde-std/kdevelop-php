@@ -93,26 +93,6 @@ Description: Estonian (et) localization for KDevelop PHP plugin
  .
  This package is part of the PHP plugin for KDevelop.
 
-Package: kdevelop-php-l10n-fr
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-fr, kdevelop-l10n-fr
-Provides: kdevelop-php-l10n
-Description: French (fr) localization for KDevelop PHP plugin
- This package contains the French translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-gl
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-gl, kdevelop-l10n-gl
-Provides: kdevelop-php-l10n
-Description: Galician (gl) localization for KDevelop PHP plugin
- This package contains the Galician translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
 Package: kdevelop-php-l10n-it
 Section: localization
 Architecture: all
