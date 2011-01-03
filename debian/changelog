@@ -8,6 +8,7 @@ kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
   * Pass CMAKE_MODULE_PATH=/usr/share/cmake/modules/ to cmake as it does not
     find kdevelop-pg-qt otherwise.
   * Update install files.
+  * Add kdevelop-php-l10n-de package.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 00:21:02 +0200
 

@@ -52,6 +52,16 @@ Description: Danish (da) localization for KDevelop PHP plugin
  .
  This package is part of the PHP plugin for KDevelop.
 
+Package: kdevelop-php-l10n-de
+Section: localization
+Architecture: all
+Recommends: kdevplatform-l10n-de, kdevelop-l10n-de
+Provides: kdevelop-php-l10n
+Description: German (de) localization for KDevelop PHP plugin
+ This package contains the German translations for KDevelop PHP plugin.
+ .
+ This package is part of the PHP plugin for KDevelop.
+
 Package: kdevelop-php-l10n-engb
 Section: localization
 Architecture: all
