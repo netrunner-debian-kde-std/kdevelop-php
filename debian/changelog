@@ -11,6 +11,7 @@ kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
   * Add kdevelop-php-l10n-de package.
   * Drop kdevelop-php-l10n-fr and kdevelop-php-l10n-gl packages. Not included
     in this release.
+  * Add myself to Uploaders.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 00:21:02 +0200
 
