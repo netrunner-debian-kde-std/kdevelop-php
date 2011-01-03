@@ -1,4 +1,4 @@
-kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
+kdevelop-php (1.1.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Switch Vcs-* fields to the new repository at git.debian.org.
@@ -14,7 +14,7 @@ kdevelop-php (1.1.1-0~r1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Add ${misc:Depends} to l10n packages.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 00:21:02 +0200
+ -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 16:26:22 +0200
 
 kdevelop-php (1.0.1-1) unstable; urgency=low
 
