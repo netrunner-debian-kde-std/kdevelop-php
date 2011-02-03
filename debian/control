@@ -21,194 +21,25 @@ Description: PHP plugin for KDevelop
  .
  This package contains the PHP language support plugin.
 
-Package: kdevelop-php-l10n-ca
+Package: kdevelop-php-l10n
 Section: localization
 Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-ca, kdevelop-l10n-ca
-Provides: kdevelop-php-l10n
-Description: Catalan (ca) localization for KDevelop PHP plugin
- This package contains the Catalan translations for KDevelop PHP plugin.
+Breaks: kdevelop-php-l10n-ca, kdevelop-php-l10n-cavalencia,
+ kdevelop-php-l10n-da, kdevelop-php-l10n-engb,  kdevelop-php-l10n-es, 
+ kdevelop-php-l10n-et, kdevelop-php-l10n-fr, kdevelop-php-l10n-gl,
+ kdevelop-php-l10n-it, kdevelop-php-l10n-nds, kdevelop-php-l10n-nl,
+ kdevelop-php-l10n-pt, kdevelop-php-l10n-ptbr, kdevelop-php-l10n-sv,
+ kdevelop-php-l10n-th, kdevelop-php-l10n-uk, kdevelop-php-l10n-zhcn,
+ kdevelop-php-l10n-zhtw
+Replaces: kdevelop-php-l10n-ca, kdevelop-php-l10n-cavalencia,
+ kdevelop-php-l10n-da, kdevelop-php-l10n-engb,  kdevelop-php-l10n-es, 
+ kdevelop-php-l10n-et, kdevelop-php-l10n-fr, kdevelop-php-l10n-gl,
+ kdevelop-php-l10n-it, kdevelop-php-l10n-nds, kdevelop-php-l10n-nl,
+ kdevelop-php-l10n-pt, kdevelop-php-l10n-ptbr, kdevelop-php-l10n-sv,
+ kdevelop-php-l10n-th, kdevelop-php-l10n-uk, kdevelop-php-l10n-zhcn,
+ kdevelop-php-l10n-zhtw
+Description: Localization for KDevelop PHP plugin
+ The KDevelop-PHP plugin is the language plugin for the PHP language
+ for the KDevelop integrated development environment for KDE.
  .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-cavalencia
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-cavalencia, kdevelop-l10n-cavalencia
-Provides: kdevelop-php-l10n
-Description: Southern Catalan (Valencian) (ca@valencia) files for KDevelop PHP plugin
- This package contains the Southern Catalan (Valencian) translations for
- KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-da
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-da, kdevelop-l10n-da
-Provides: kdevelop-php-l10n
-Description: Danish (da) localization for KDevelop PHP plugin
- This package contains the Danish translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-de
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-de, kdevelop-l10n-de
-Provides: kdevelop-php-l10n
-Description: German (de) localization for KDevelop PHP plugin
- This package contains the German translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-engb
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-engb, kdevelop-l10n-engb
-Provides: kdevelop-php-l10n
-Description: British English (en_GB) localization for KDevelop PHP plugin
- This package contains the British English translations for KDevelop PHP
- plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-es
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-es, kdevelop-l10n-es
-Provides: kdevelop-php-l10n
-Description: Spanish (es) localization for KDevelop PHP plugin
- This package contains the Spanish translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-et
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-et, kdevelop-l10n-et
-Provides: kdevelop-php-l10n
-Description: Estonian (et) localization for KDevelop PHP plugin
- This package contains the Estonian translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-it
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-it, kdevelop-l10n-it
-Provides: kdevelop-php-l10n
-Description: Italian (it) localization for KDevelop PHP plugin
- This package contains the Italian translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-nds
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-nds, kdevelop-l10n-nds
-Provides: kdevelop-php-l10n
-Description: Low Saxon (nds) localization for KDevelop PHP plugin
- This package contains the Low Saxon translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-nl
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-nl, kdevelop-l10n-nl
-Provides: kdevelop-php-l10n
-Description: Dutch (nl) localization for KDevelop PHP plugin
- This package contains the Dutch translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-pt
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-pt, kdevelop-l10n-pt
-Provides: kdevelop-php-l10n
-Description: Portugese (pt) localization for KDevelop PHP plugin
- This package contains the Portugese translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-ptbr
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-ptbr, kdevelop-l10n-ptbr
-Provides: kdevelop-php-l10n
-Description: Brazilian Portugese (pt_BR) localization for KDevelop PHP plugin
- This package contains the Brazilian Portugese translations for KDevelop PHP
- plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-sv
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-sv, kdevelop-l10n-sv
-Provides: kdevelop-php-l10n
-Description: Swedish (sv) localization for KDevelop PHP plugin
- This package contains the Swedish translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-th
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-th, kdevelop-l10n-th
-Provides: kdevelop-php-l10n
-Description: Thai (th) localization for KDevelop PHP plugin
- This package contains the Thai translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-uk
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-uk, kdevelop-l10n-uk
-Provides: kdevelop-php-l10n
-Description: Ukrainian (uk) localization for KDevelop PHP plugin
- This package contains the Ukrainian translations for KDevelop PHP plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-zhcn
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-zhcn, kdevelop-l10n-zhcn
-Provides: kdevelop-php-l10n
-Description: Chinese Simplified (zh_CN) localization for KDevelop PHP plugin
- This package contains the Chinese Simplified translations for KDevelop PHP
- plugin.
- .
- This package is part of the PHP plugin for KDevelop.
-
-Package: kdevelop-php-l10n-zhtw
-Section: localization
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: kdevplatform-l10n-zhtw, kdevelop-l10n-zhtw
-Provides: kdevelop-php-l10n
-Description: Chinese Traditional (zh_TW) localization for KDevelop PHP plugin
- This package contains the Chinese Traditional translations for KDevelop PHP
- plugin.
- .
- This package is part of the PHP plugin for KDevelop.
+ This  package contains the localizations for the KDevelop PHP plugin.
