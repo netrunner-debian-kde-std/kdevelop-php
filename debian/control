@@ -21,6 +21,17 @@ Description: PHP plugin for KDevelop
  .
  This package contains the PHP language support plugin.
 
+Package: kdevelop-php-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kdevelop-php (= ${binary:Version}), kdelibs5-dbg, libc6-dbg [amd64]
+Description: Debugging symbols for the KDevelop PHP Plugin
+ This package contains the debugging symbols associated with KDevelop PHP.
+ They will automatically be used by gdb for debugging KDevelop PHP.
+ .
+ This package contains debugging symbols for the KDevelop PHP plugin.
+
 Package: kdevelop-php-l10n
 Section: localization
 Architecture: all
