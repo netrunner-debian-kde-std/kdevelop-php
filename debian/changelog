@@ -18,6 +18,7 @@ kdevelop-php (1.2.1-0r1) UNRELEASED; urgency=low
       Brazilian Portugese (pt_BR), Swedish (sv), Thai (th),
       Ukrainian (uk), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW)
   * Add package with debug symbols for KDevelop PHP plugin. (Closes: #593637)
+  * Add myself to Uploaders.
 
   [ Modestas Vainius ]
   * Switch Vcs-* fields to the new repository at git.debian.org.
