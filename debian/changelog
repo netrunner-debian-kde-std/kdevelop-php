@@ -1,30 +1,27 @@
-kdevelop-php (1.2.2-0r1) UNRELEASED; urgency=low
+kdevelop-php (1.2.2-1) unstable; urgency=low
 
   * New upstream release.
 
   [ Andreas Cord-Landwehr ]
   * Update debian/control
-    - updated installed files
-    - bump kdevplatform-dev build dependency version
-    - add build dependency for kdevelop-pg-qt
-    - removed French (fr) localization package
-    - removed Galician (gl) localization package
-  * Merged all localization packages into one
-    - added Breaks to all previous localization packages
-    - added Replaces to all previous localization packages
+    - bump kdevplatform-dev build dependency version.
+    - removed French (fr) localization package.
+    - removed Galician (gl) localization package.
+  * Merged all localization packages into one:
+    - add Breaks to all previous localization packages.
+    - add Replaces to all previous localization packages.
     - contains: Catalan (ca), Southern Catalan (Valencian), Danish (da),
       British English (en_GB), Spanish (es), Estonian (et),
       Italian (it), Low Saxon (nds), Dutch (nl), Portugese (pt),
       Brazilian Portugese (pt_BR), Swedish (sv), Thai (th),
-      Ukrainian (uk), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW)
+      Ukrainian (uk), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW).
   * Add package with debug symbols for KDevelop PHP plugin. (Closes: #593637)
   * Add myself to Uploaders.
 
   [ Modestas Vainius ]
   * Switch Vcs-* fields to the new repository at git.debian.org.
-  * Bump Standards-Version to 3.9.1: no changes needed.
-  * Require kdevplatform-dev 1.1 for building.
-  * Build depend on kdevelop-pg-qt.
+  * Bump Standards-Version to 3.9.2: no changes needed.
+  * Build depend on kdevplatform-dev and kdevelop-pg-qt.
   * Pass CMAKE_MODULE_PATH=/usr/share/cmake/modules/ to cmake as it does not
     find kdevelop-pg-qt otherwise.
   * Update install files.
@@ -34,7 +31,7 @@ kdevelop-php (1.2.2-0r1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Add ${misc:Depends} to l10n packages.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 03 Jan 2011 16:26:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 13:41:07 +0300
 
 kdevelop-php (1.0.1-1) unstable; urgency=low
 
