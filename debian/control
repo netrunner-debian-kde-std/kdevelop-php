@@ -2,10 +2,14 @@ Source: kdevelop-php
 Section: devel
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>,
- Andreas Cord-Landwehr <cola@uni-paderborn.de>
-Build-Depends: debhelper (>= 7.4.15), cmake (>= 2.8.0), pkg-kde-tools (>= 0.6.4),
- kdevplatform-dev (>= 1.2.0), kdevelop-pg-qt (>= 0.9.0)
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Andreas Cord-Landwehr <cola@uni-paderborn.de>
+Build-Depends: cmake (>= 2.8.0),
+               debhelper (>= 7.4.15),
+               kdevelop-pg-qt (>= 0.9.0),
+               kdevplatform-dev (>= 1.2.0),
+               pkg-kde-tools (>= 0.6.4)
 Standards-Version: 3.9.2
 Homepage: http://www.kdevelop.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdevelop-php.git
@@ -13,7 +17,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdevelop-php.git
 
 Package: kdevelop-php
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdevelop (>= 4:4.0.1)
+Depends: kdevelop (>= 4:4.0.1), ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdevelop-php-l10n
 Description: PHP plugin for KDevelop
  KDevelop is an easy to use integrated development environment for KDE.
@@ -26,7 +30,7 @@ Package: kdevelop-php-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdevelop-php (= ${binary:Version}), kdelibs5-dbg, libc6-dbg [amd64]
+Depends: kdelibs5-dbg, kdevelop-php (= ${binary:Version}), libc6-dbg [amd64]
 Description: Debugging symbols for the KDevelop PHP Plugin
  This package contains the debugging symbols associated with KDevelop PHP.
  They will automatically be used by gdb for debugging KDevelop PHP.
@@ -36,20 +40,42 @@ Description: Debugging symbols for the KDevelop PHP Plugin
 Package: kdevelop-php-l10n
 Section: localization
 Architecture: all
-Breaks: kdevelop-php-l10n-ca, kdevelop-php-l10n-cavalencia,
- kdevelop-php-l10n-da, kdevelop-php-l10n-engb,  kdevelop-php-l10n-es, 
- kdevelop-php-l10n-et, kdevelop-php-l10n-fr, kdevelop-php-l10n-gl,
- kdevelop-php-l10n-it, kdevelop-php-l10n-nds, kdevelop-php-l10n-nl,
- kdevelop-php-l10n-pt, kdevelop-php-l10n-ptbr, kdevelop-php-l10n-sv,
- kdevelop-php-l10n-th, kdevelop-php-l10n-uk, kdevelop-php-l10n-zhcn,
- kdevelop-php-l10n-zhtw
-Replaces: kdevelop-php-l10n-ca, kdevelop-php-l10n-cavalencia,
- kdevelop-php-l10n-da, kdevelop-php-l10n-engb,  kdevelop-php-l10n-es, 
- kdevelop-php-l10n-et, kdevelop-php-l10n-fr, kdevelop-php-l10n-gl,
- kdevelop-php-l10n-it, kdevelop-php-l10n-nds, kdevelop-php-l10n-nl,
- kdevelop-php-l10n-pt, kdevelop-php-l10n-ptbr, kdevelop-php-l10n-sv,
- kdevelop-php-l10n-th, kdevelop-php-l10n-uk, kdevelop-php-l10n-zhcn,
- kdevelop-php-l10n-zhtw
+Breaks: kdevelop-php-l10n-ca,
+        kdevelop-php-l10n-cavalencia,
+        kdevelop-php-l10n-da,
+        kdevelop-php-l10n-engb,
+        kdevelop-php-l10n-es,
+        kdevelop-php-l10n-et,
+        kdevelop-php-l10n-fr,
+        kdevelop-php-l10n-gl,
+        kdevelop-php-l10n-it,
+        kdevelop-php-l10n-nds,
+        kdevelop-php-l10n-nl,
+        kdevelop-php-l10n-pt,
+        kdevelop-php-l10n-ptbr,
+        kdevelop-php-l10n-sv,
+        kdevelop-php-l10n-th,
+        kdevelop-php-l10n-uk,
+        kdevelop-php-l10n-zhcn,
+        kdevelop-php-l10n-zhtw
+Replaces: kdevelop-php-l10n-ca,
+          kdevelop-php-l10n-cavalencia,
+          kdevelop-php-l10n-da,
+          kdevelop-php-l10n-engb,
+          kdevelop-php-l10n-es,
+          kdevelop-php-l10n-et,
+          kdevelop-php-l10n-fr,
+          kdevelop-php-l10n-gl,
+          kdevelop-php-l10n-it,
+          kdevelop-php-l10n-nds,
+          kdevelop-php-l10n-nl,
+          kdevelop-php-l10n-pt,
+          kdevelop-php-l10n-ptbr,
+          kdevelop-php-l10n-sv,
+          kdevelop-php-l10n-th,
+          kdevelop-php-l10n-uk,
+          kdevelop-php-l10n-zhcn,
+          kdevelop-php-l10n-zhtw
 Description: Localization for KDevelop PHP plugin
  The KDevelop-PHP plugin is the language plugin for the PHP language
  for the KDevelop integrated development environment for KDE.
