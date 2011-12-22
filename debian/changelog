@@ -4,6 +4,7 @@ kdevelop-php (1.2.3-0r0) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * Mark kdevelop-php as enhancing the kdevelop package.
+  * Add ${misc:Depends} to kdevelop-php-dbg and kdevelop-php-l10n.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Nov 2011 13:11:24 +0100
 
