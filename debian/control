@@ -31,7 +31,7 @@ Package: kdevelop-php-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdelibs5-dbg, kdevelop-php (= ${binary:Version}), libc6-dbg [amd64],
+Depends: kdelibs5-dbg, kdevelop-php (= ${binary:Version}),
          ${misc:Depends}
 Description: Debugging symbols for the KDevelop PHP Plugin
  This package contains the debugging symbols associated with KDevelop PHP.
