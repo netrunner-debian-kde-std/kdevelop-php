@@ -2,6 +2,9 @@ kdevelop-php (1.3.0-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Andreas Cord-Landwehr ]
+  * Bump kdevelop-pg-qt build dependency.
+
   [ Felix Geyer ]
   * Mark kdevelop-php as enhancing the kdevelop package.
   * Add ${misc:Depends} to kdevelop-php-dbg and kdevelop-php-l10n.
