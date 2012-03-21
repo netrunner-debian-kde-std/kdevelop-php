@@ -13,15 +13,50 @@ Upstream Authors:
 
 Copyright:
 
-    Copyright (C) 2008-2010 Niko Sams <niko.sams@gmail.com>
-    Copyright (C) 2008-2010 Milian Wolff <mail@milianw.de>
-    Copyright (C) 2007-2008 David Nolden <david.nolden.kdevelop@art-master.de>
-    Copyright (C) 2006-2008 Hamish Rodda <rodda@kde.org>
-    Copyright (C) 2007 Andreas Pakulat <apaku@gmx.de>
-    Copyright (C) 2007 Piyush verma <piyush.verma@gmail.com>
-    Copyright (C) 2002-2006 Roberto Raggi <roberto@kdevelop.org>
-    Copyright (C) 2006 Matt Rogers <mattr@kde.org>
-    Copyright (C) 2004 Jaroslaw Staniek <js@iidea.pl>
+    © 2008-2010 Niko Sams <niko.sams@gmail.com>
+    © 2008-2012 Milian Wolff <mail@milianw.de>
+    © 2007-2008 David Nolden <david.nolden.kdevelop@art-master.de>
+    © 2006-2008 Hamish Rodda <rodda@kde.org>
+    © 2007 Andreas Pakulat <apaku@gmx.de>
+    © 2009-2010 Manuel Tortosa <manutortosa@gmail.com>
+    © 2009 Basec on Cpp
+    © 2009 Marce Villarino <mvillarino@users.sourceforge.net> <mvillarino@gmail.com>
+    © 2006 Matt Rogers <mattr@kde.org>
+    © 2009-2010 Joëlle Cornavin <jcornavi@club-internet.fr> <j.cornavin@sfr.fr> <jcornavin@laposte.net>
+    © 2004 Jaroslaw Staniek <js@iidea.pl>
+    © 2010 Josep Ma. Ferrer <txemaq@gmail.com>
+    © 2009-2010 Andrew Coles <andrew_coles@yahoo.co.uk>
+    © 2009-2010 Luiz Fernando Ranghetti <elchevive@opensuse.org>
+    © 2011-2012 Lasse Liehu <lasse.liehu@gmail.com>
+    © 2010-2011 André Marcelo Alvarenga <andrealvarenga@gmx.net>
+    © 2009-2010 Yuri Chornoivan <yurchor@ukr.net>
+    © 2009-2010 Manfred Wiese <m.j.wiese@web.de>
+    © 2009-2010 Marek Laane <bald@smail.ee>
+    © 2010 Morten Anton Bach Sjøgren <m_abs@mabs.dk>
+    © 2010 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
+    © 2009-2011 Eloy Cuadra <ecuadra@eloihr.net>
+    © 2011 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+    © 2012 Xosé <xosecalvo@gmail.com>
+    © 2010 Martin Schlander <mschlander@opensuse.org>
+    © 2009-2010 Stefan Asserhäll <stefan.asserhall@comhem.se>
+    © 2010 Marcus Vinícius de Andrade
+    © 2009-2010 Simone Solinas <ksolsim@gmail.com>
+    © 2010 Phuwanat Sakornsakolpat <narachai@gmail.com>
+    © 2009 Rolf Eike Beer <kde@opensource.sf-tec.de>
+    © 2010 Frederik Schwarzer <schwarzer@kde.org>
+    © 2010 Franklin Weng <franklin@mail.everfocus.com.tw>
+    © 2009 Narachai Sakorn <narachai@gmail.com>
+    © 2010 Gama <marcus.gama@gmail.com>
+    © 2010 Aracele Torres <araceletorres@gmail.com>
+    © 2009 mvillarino <mvillarino@users.sourceforge.net>
+    © 2010 Freek de Kruijf <freekdekruijf@kde.nl>
+    © 2012 Jorma Karvonen <karvonen.jorma@gmail.com>
+    © 2010 Gerhard Stengel <gstengel@gmx.net>
+    © 2009 Sönke Dibbern <s_dibbern@web.de>
+    © 2009-2010 Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>
+    © 2009 Burkhard Lück <lueck@hube-lueck.de>
+    © 2010 Ni Hui <shuizhuyuanluo@126.com>
+
 
 Copyright for FindKDevPlatform.cmake file:
 
