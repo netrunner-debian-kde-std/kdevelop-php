@@ -18,6 +18,9 @@ kdevelop-php (1.3.1-0r0) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Do not pass CMAKE_MODULE_PATH to cmake, since newer kdevelop-pg-qt installs
     cmake configuration files in the proper place.
+  * Switch to debhelper compat v9:
+    - bump compat to 9
+    - bump debhelper build dependency to 9
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Nov 2011 13:11:24 +0100
 

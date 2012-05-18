@@ -6,7 +6,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Andreas Cord-Landwehr <cola@uni-paderborn.de>
 Build-Depends: cmake (>= 2.8.0),
-               debhelper (>= 7.4.15),
+               debhelper (>= 9),
                kdevelop-pg-qt (>= 1.0.0),
                kdevplatform-dev (>= 1.3.1),
                pkg-kde-tools (>= 0.6.4)
