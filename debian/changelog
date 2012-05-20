@@ -1,11 +1,11 @@
-kdevelop-php (1.3.1-2) UNRELEASED; urgency=low
+kdevelop-php (1.3.1-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload. Upload to unstable.
   * Link with with as-needed.
   * Remove the docs file, as the upstream TODO is not useful.
   * Small touches to the descriptions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 May 2012 12:22:01 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 20 May 2012 12:30:23 +0200
 
 kdevelop-php (1.3.1-1) experimental; urgency=low
 
