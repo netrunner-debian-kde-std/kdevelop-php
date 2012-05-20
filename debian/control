@@ -33,11 +33,10 @@ Architecture: any
 Priority: extra
 Depends: kdelibs5-dbg, kdevelop-php (= ${binary:Version}),
          ${misc:Depends}
-Description: Debugging symbols for the KDevelop PHP Plugin
- This package contains the debugging symbols associated with KDevelop PHP.
- They will automatically be used by gdb for debugging KDevelop PHP.
- .
- This package contains debugging symbols for the KDevelop PHP plugin.
+Description: debugging symbols for the KDevelop PHP plugin
+ This package contains the debugging symbols of the PHP plugin for KDevelop.
+ They will automatically be used by gdb for debugging issues with the PHP
+ plugin.
 
 Package: kdevelop-php-l10n
 Section: localization
@@ -79,7 +78,7 @@ Replaces: kdevelop-php-l10n-ca,
           kdevelop-php-l10n-uk,
           kdevelop-php-l10n-zhcn,
           kdevelop-php-l10n-zhtw
-Description: Localization for KDevelop PHP plugin
+Description: localization files for KDevelop PHP plugin
  The KDevelop-PHP plugin is the language plugin for the PHP language
  for the KDevelop integrated development environment for KDE.
  .
