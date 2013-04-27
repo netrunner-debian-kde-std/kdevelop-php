@@ -1,7 +1,10 @@
 usr/lib/kde4/kdevphplanguagesupport.so
+usr/lib/kde4/kdevphpunitprovider.so
 usr/lib/libkdev4phpcompletion.so
 usr/lib/libkdev4phpduchain.so
 usr/lib/libkdev4phpparser.so
 usr/share/kde4/apps/kdevappwizard/templates/simple_phpapp.tar.bz2
 usr/share/kde4/apps/kdevphpsupport/phpfunctions.php
+usr/share/kde4/apps/kdevphpsupport/phpunitdeclarations.php
 usr/share/kde4/services/kdevphpsupport.desktop
+usr/share/kde4/services/kdevphpunitprovider.desktop
