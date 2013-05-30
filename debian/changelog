@@ -4,6 +4,7 @@ kdevelop-php (1.5.1-0r0) UNRELEASED; urgency=low
 
   [ Andreas Cord-Landwehr ]
   * Bump kdevplatform-dev build dependency to 1.5.1.
+  * Bump Standards-Version to 3.9.4: no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Apr 2013 11:20:06 +0200
 
