@@ -5,6 +5,7 @@ kdevelop-php (1.5.1-0r0) UNRELEASED; urgency=low
   [ Andreas Cord-Landwehr ]
   * Bump kdevplatform-dev build dependency to 1.5.1.
   * Bump Standards-Version to 3.9.4: no changes needed.
+  * Update kdevelop-php.install.
 
   [ Pino Toscano ]
   * Add watch file.
