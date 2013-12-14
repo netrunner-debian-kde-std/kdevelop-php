@@ -6,6 +6,7 @@ kdevelop-php (1.5.2-0) UNRELEASED; urgency=low
   * Bump kdevplatform-dev build dependency to 1.5.2.
   * Bump kdevelop runtime dependency to 4.5.2.
   * Bump Standards-Version to 3.9.5: no changes needed.
+  * Update debian/watch file to track xz compressed tarballs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 09:41:32 +0100
 
