@@ -8,7 +8,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
 Build-Depends: cmake (>= 2.8.0),
                debhelper (>= 9),
                kdevelop-pg-qt (>= 1.0.0),
-               kdevplatform-dev (>= 1.5.2),
+               kdevplatform-dev (>= 1.6.0),
                pkg-kde-tools (>= 0.6.4)
 Standards-Version: 3.9.5
 Homepage: http://www.kdevelop.org/
