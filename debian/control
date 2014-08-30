@@ -17,7 +17,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/kdevelop-php.git
 
 Package: kdevelop-php
 Architecture: any
-Depends: kdevelop (>= 4:4.6.0), ${misc:Depends}, ${shlibs:Depends}
+Depends: kdevelop (>= 4:4.7.0), ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdevelop-php-l10n
 Enhances: kdevelop
 Description: PHP plugin for KDevelop
